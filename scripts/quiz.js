@@ -220,9 +220,12 @@ function resetData() {
     correct = 0;
     questionCount = 0;
     mask.style.display = "none";
-    validate.length = 0;
+    validate = [];
+    correctDrop = false;
     myNum = 1;
     visitedQue = [];
+
+    console.log("reset")
 }
 
 
