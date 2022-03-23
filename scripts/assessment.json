@@ -3,7 +3,7 @@
 		"DisplayQuestions": 5,
 		"PassingThreshold": 80,
 		"Question": [{
-			"Text": "1. Match the Following ",
+			"Text": "Match the Following ",
 			"Type": "DRAG_DROP",
 			"Option": [{
 					"Text": "India",
@@ -32,7 +32,7 @@
 			}
 		},
 		{
-				"Text": "2. Burj Khalifa Located in which Place?",
+				"Text": "Burj Khalifa Located in which Place?",
 				"Type": "SINGLE_SELECT",
 				"Option": [{
 						"Text": "Shangai",
@@ -53,7 +53,7 @@
 				}
 			},
 			{
-				"Text": "3. Below who awareded Bharat Ratna",
+				"Text": "Below who awareded Bharat Ratna",
 				"Type": "MULTI_SELECT",
 				"Option": [{
 						"Text": "Jawaharlal Nehru",
@@ -78,7 +78,7 @@
 				}
 			},
 			{
-				"Text": "4. Which singer was born in the city Indore",
+				"Text": "Which singer was born in the city Indore",
 				"Type": "SINGLE_SELECT",
 				"Option": [{
 						"Text": "Manna Dey",
@@ -99,7 +99,7 @@
 				}
 			},
 			{
-				"Text": "5. Which state was Jharkhand formerly a part of?",
+				"Text": "Which state was Jharkhand formerly a part of?",
 				"Type": "SINGLE_SELECT",
 				"Option": [{
 						"Text": "Bihar",
