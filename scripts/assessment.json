@@ -1,0 +1,124 @@
+{
+	"Level1": {
+		"DisplayQuestions": 5,
+		"PassingThreshold": 80,
+		"Question": [{
+			"Text": "1. Match the Following ",
+			"Type": "DRAG_DROP",
+			"Option": [{
+					"Text": "India",
+					"isCorrect": "Japan"
+				},
+				{
+					"Text": "Japan",
+					"isCorrect": "India"
+				},
+				{
+					"Text": "Russia",
+					"isCorrect": "Russia"
+				},
+				{
+					"Text": "China",
+					"isCorrect": "Ukraine"
+				},
+				{
+					"Text": "Ukraine",
+					"isCorrect": "China"
+				}
+			],
+			"Feedback": {
+				"Correct": "Correct",
+				"Incorrect": "Incorrect"
+			}
+		},
+		{
+				"Text": "2. Burj Khalifa Located in which Place?",
+				"Type": "SINGLE_SELECT",
+				"Option": [{
+						"Text": "Shangai",
+						"isCorrect": 0
+					},
+					{
+						"Text": "Dubai",
+						"isCorrect": 1
+					},
+					{
+						"Text": "United States",
+						"isCorrect": 0
+					}
+				],
+				"Feedback": {
+					"Correct": "Correct",
+					"Incorrect": "Incorrect"
+				}
+			},
+			{
+				"Text": "3. Below who awareded Bharat Ratna",
+				"Type": "MULTI_SELECT",
+				"Option": [{
+						"Text": "Jawaharlal Nehru",
+						"isCorrect": 1
+					},
+					{
+						"Text": "Govind Ballabh Pant",
+						"isCorrect": 1
+					},
+					{
+						"Text": "Lal Bahadur Shastri",
+						"isCorrect": 1
+					},
+					{
+						"Text": "A. P. J. Abdul Kalam",
+						"isCorrect": 1
+					}
+				],
+				"Feedback": {
+					"Correct": "Correct",
+					"Incorrect": "Incorrect"
+				}
+			},
+			{
+				"Text": "4. Which singer was born in the city Indore",
+				"Type": "SINGLE_SELECT",
+				"Option": [{
+						"Text": "Manna Dey",
+						"isCorrect": 0
+					},
+					{
+						"Text": "Asha Bhosle",
+						"isCorrect": 0
+					},
+					{
+						"Text": "Lata Mangeshkar",
+						"isCorrect": 1
+					}
+				],
+				"Feedback": {
+					"Correct": "Correct",
+					"Incorrect": "Incorrect"
+				}
+			},
+			{
+				"Text": "5. Which state was Jharkhand formerly a part of?",
+				"Type": "SINGLE_SELECT",
+				"Option": [{
+						"Text": "Bihar",
+						"isCorrect": 1
+					},
+					{
+						"Text": "Punjab",
+						"isCorrect": 0
+					},
+					{
+						"Text": "Karnataka",
+						"isCorrect": 0
+					}
+				],
+				"Feedback": {
+					"Correct": "Correct",
+					"Incorrect": "Incorrect"
+				}
+			}
+		]
+	}
+}

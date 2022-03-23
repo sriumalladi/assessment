@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome: Assessment</title>
+    <script src="scripts/jquery.js"></script>
+    <script src="./scripts/draganddrop.js"></script>
+    <link href="./css/leaderBoard.css" rel="stylesheet" media="all" type="text/css"/>
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css" />
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="topBar">
+            <h3>Welcome to Assessment</h3>
+        </div>
+        <div class="listOptions">
+            <ul>
+                <li><a href="#" onclick="startLeaderBoard()">Leaderboard</a></li>
+                <li><a href="#" onclick="showQuestions()">QuizTemplate</a></li>
+                <li>System Architecture</li>
+            </ul>
+        </div>
+    </div>
+    <div class="topLayer" id="mask" style="display: none;">
+        <div class="userPrompt" id="feedbackMessage">Correct</div>
+        <section id="assessment">
+            <div class="quizPage" id="quizPage">
+                <input type="button" class="closeBtn" id="closeBtn" />
+                <div class="topSection">&nbsp;</div>
+                <div class="questionSection" id="questionDisplay">
+                    question
+                </div>
+                <div class="optionSection" id="optionsDisplay">
+                    options
+                </div>
+                <div class="buttonSection">
+                    <!-- <button id="addQuestion">AddQuestion</button>-->
+                    <input type="button" class="btnSubmit" id="sumbitBtn" />
+                    <input type="button" class="nextBtn" id="nextBtn" />
+                    <input type="button" class="closeBtn2" id="closeBtn2" />
+                </div>
+                <div class="borderSection">&nbsp;</div>
+            </div>
+        </section>
+    </div>
+    <div class="topLayer2" id="mask2">
+        
+    </div>
+    <script src="./scripts/quiz.js"></script>
+    <script src="./scripts/leaderboard.js"></script>
+</body>
+
+</html>

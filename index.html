@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome: Assessment</title>
+    <script src="scripts/jquery.js"></script>
+    <script src="./scripts/draganddrop.js"></script>
+    <link href="./css/leaderBoard.css" rel="stylesheet" media="all" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="topBar">
+            <h3>Welcome to Assessment</h3>
+        </div>
+        <div class="listOptions">
+            <ul>
+                <li><a href="#" onclick="startLeaderBoard()">Leaderboard</a></li>
+                <li><a href="#" onclick="showQuestions()">QuizTemplate</a></li>
+                <li><a href="./assessment.pdf" target="_blank" >System Architecture</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="topLayer" id="mask" style="display: none;">
+        <div class="userPrompt" id="feedbackMessage">Correct</div>
+        <section id="assessment">
+            <div class="quizPage" id="quizPage">
+                <input type="button" class="closeBtn" id="closeBtn" />
+                <div class="topSection">&nbsp;</div>
+                <div class="questionSection" id="questionDisplay">
+                    question
+                </div>
+                <div class="optionSection" id="optionsDisplay">
+                    options
+                </div>
+                <div class="buttonSection">
+                    <!-- <button id="addQuestion">AddQuestion</button>-->
+                    <input type="button" class="btnSubmit" id="sumbitBtn" />
+                    <input type="button" class="nextBtn" id="nextBtn" />
+                    <input type="button" class="closeBtn2" id="closeBtn2" />
+                </div>
+                <div class="borderSection">&nbsp;</div>
+            </div>
+        </section>
+    </div>
+    <div class="topLayer2" id="mask2">
+        <div class="Lb_Container">
+            <div class="closeBtn" style="position: absolute; margin-left:50%;" onclick="closeLB()"></div>
+            <div class="Lb_topSection" id="topPanel">
+                <!--<h3>Leader Board</h3>
+                 <div class="Lb_Score_Top">
+                    <span class="Lb_Rank">Rank 2</span>
+                    <span class="Lb_Pic"><img src="./images/1.jpg" title="name" /></span>
+                    <span class="Lb_Name">Name</span>
+                    <span class="Lb_Marks">2345</span>
+                </div>
+                <div class="Lb_Score_Top">
+                    <span class="Lb_Rank">Rank 1</span>
+                    <span class="Lb_Pic mkbig"><img src="./images/1.jpg" title="name" /></span>
+                    <span class="Lb_Name">Name</span>
+                    <span class="Lb_Marks">2345</span>
+                </div>
+                <div class="Lb_Score_Top">
+                    <span class="Lb_Rank">Rank 3</span>
+                    <span class="Lb_Pic"><img src="./images/1.jpg" title="name" /></span>
+                    <span class="Lb_Name">Name</span>
+                    <span class="Lb_Marks">2345</span>
+                </div> -->
+            </div>
+            <div class="Lb_bottomSection" id="topPlayers">
+                <!-- <div class="Lb_Score">
+                    <span class="Lb_Rank">Rank 4</span>
+                    <span class="Lb_Pic"><img src="./images/1.jpg" title="name" /></span>
+                    <span class="Lb_Name">Name</span>
+                    <span class="Lb_Marks">2345</span>
+                </div> -->
+            </div>
+        </div>
+        <div class="Lb"><input type="number" value="" id="user0" placeholder="Charlotte"><button onclick="addScore(0)">Add
+                Score</button><br /><input type="number" value="" id="user1" placeholder="Olivia"><button
+                onclick="addScore(1)">Add Score</button><br /><input type="number" value="" id="user2"
+                placeholder="Noah"><button onclick="addScore(2)">Add Score</button><br /><input type="number" value=""
+                id="user3" placeholder="Robert"><button onclick="addScore(3)">Add Score</button><br /><input type="number"
+                value="" id="user4" placeholder="Dhruv"><button onclick="addScore(4)">Add Score</button></div>
+        <div class="userProfile" id='userProfile'>
+            <!-- <div class="user_container">
+                <div class="closeBtn"></div>
+                <div class="user_pic"><img src="./images/1.jpg" alt="alt" />
+                    <div class="usernewData">
+                        <div class="textBold">XYZ</div>
+                    </div>
+                </div>
+                <div class="user_data">
+                    <h3>User Profile</h3>
+                    <div class="usernewData">
+                        <div>ID:</div>
+                        <div class="textBold">00</div>
+                    </div>
+                    <div class="usernewData">
+                        <div>Score:</div>
+                        <div class="textBold">00</div>
+                    </div>
+                    <div class="usernewData">
+                        <div>Highest Score :</div>
+                        <div class="textBold">00</div>
+                    </div>
+                    <div class="usernewData">
+                        <div>Awards :</div>
+                        <div class="textBold">00</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./scripts/quiz.js"></script>
+    <script src="./scripts/leaderboard.js"></script>
+</body>
+
+</html>

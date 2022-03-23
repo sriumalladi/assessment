@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <script src="scripts/jquery.js"></script>
+    <script src="./scripts/draganddrop.js"></script>
+    <link href="./css/style.css" rel="stylesheet" media="all" type="text/css" />
+    <script>
+        
+    </script>
+</head>
+
+<body>
+    <div class="dnd">
+        <div class="dnd_left">
+            <h4>Country</h4>
+            <ul>
+                <li id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1"
+                        src="./images/india.png" draggable="true" ondragstart="drag(event)" /></li>
+                <li id="div2"><img id="drag2" src="./images/japan.png" draggable="true" ondragstart="drag(event)" />
+                </li>
+                <li id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag3"
+                        src="./images/russia.png" draggable="true" ondragstart="drag(event)" /></li>
+                <li id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag4"
+                        src="./images/china.png" draggable="true" ondragstart="drag(event)" /></li>
+                <li id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag5"
+                        src="./images/ukrine.png" draggable="true" ondragstart="drag(event)" /></li>
+            </ul>
+        </div>
+        <div class="dnd_right">
+            <h4>Country Flag</h4>
+            <ul>
+                <li id="div6" ondragover="allowDrop(event)" ondrop="drop(event)"></li><label>India</label>
+                <li id="div7" ondragover="allowDrop(event)" ondrop="drop(event)"></li><label>China</label>
+                <li id="div8" ondragover="allowDrop(event)" ondrop="drop(event)"></li><label>Japan</label>
+                <li id="div9" ondragover="allowDrop(event)" ondrop="drop(event)"></li><label>Russia</label>
+                <li id="div10" ondragover="allowDrop(event)" ondrop="drop(event)"></li><label>Ukrine</label>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
